@@ -1,0 +1,17 @@
+{
+  "simpleTasks": [
+    "ouvre l'application",
+    "lance le live",
+    "activer le mode spectateur"
+  ],
+  "complexTasks": [
+    "Préparer le rapport trimestriel avec des graphiques avancés",
+    "Organiser une réunion d'équipe ",
+    "Développer une nouvelle fonctionnalité por l'app mobile"
+  ],
+  "edgeCases": [
+    "",
+    "Tâche avec des caractères spéciaux: @#$%^&*()",
+    "Une tâche extrêmement longue qui dépasse la limite normale de caractères pour tester la robustesse de l'application et voir comment elle gère les entrées excessives."
+  ]
+}
