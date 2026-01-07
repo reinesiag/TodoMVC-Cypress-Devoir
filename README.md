@@ -32,3 +32,26 @@ Cypress a été choisi pour les raisons suivantes :
  -Outils intégrés de debug (time-travel, screenshots, logs)
 -Idéal pour les applications web modernes (React, Angular, Vue)
 Cypress permet ainsi de produire des tests fiables, faciles à maintenir et proches de l’expérience utilisateur réelle.
+
+Structure du projet
+cypress/
+├─ e2e/            # Scénarios de tests
+├─ support/
+│  ├─ commands.js  # Commandes personnalisées
+│  └─ pages/       # Page Object Model
+cypress.config.js
+README.md
+
+Exécution des tests
+npm install
+npx cypress open
+
+ou en mode headless :
+npx cypress run
+
+ Auteur
+
+reine SIAGO
+Projet réalisé dans une démarche de démonstration de compétences QA / Test automatisé E2E.
+
+
